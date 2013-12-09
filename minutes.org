@@ -73,6 +73,7 @@ Le format est libre, mais Sphinx semble être l'outil le plus adapté
 pour gérer à la fois les supports d'ateliers et les slideshow.
 Autres outils mentionnés: notebook, org-mode d'emacs. 
 
+La langue est l'anglais pour les supports écrits, et français à l'oral. 
 
 ** TO DO liste
 
