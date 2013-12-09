@@ -1,0 +1,88 @@
+
+Présents: Cyrille, Pierre, Eric, Maude
+
+Odj: 
++ contenu et format des séances
++ répartition et mode de travail
+
+* Contenu des formats des séances
+
+Le format choisi est une séace d'atelier de 2H (TP), suivi d'un cours d'1H (slideshow).   
+
+** Séance pour les débutants
+
+L'atelier comprend: 
++ découverte de ipython (+ profile, help, complétion, % magic command)
++ PYTHONPATH, sys.path
++ modules, packages , distribution, pip
++ python2 versus python3
++ découverte de la syntaxe (statement, boucle, fonction, __main__) à  travers un exemple simple
++ en lien avec l'analyse numérique: loadtxt, fit, plot
++ accent mis sur PEP8 dès cette séance. 
++ stackoverflow
+
+** Séance pour les confirmés
+
+La séance d'atelier doit permettre de voir les fonctionnalités avancées de: 
++ numpy, manipulation d'array / d'indices
++ matplotlib
++ scipy (optimize)
+Et les principaux outils astro
++ pyfits
++ astropy
+Côté python pur: 
++ compréhension de liste
++ itérateurs
++ I/O
++ shutils, glob, etc
+
+L'idée suggéré par Jean-Marc de fit de spectres d'étoile en loi de
+puissance, ou de bruit en 1/f a été approuvé par tous.
+
+
+** Séance python pour le calcul
+
+En atelier
++ cython
++ f2py
++ numexpr
++ multiprocessing
++ mpi4py
+
+En cours: 
++ panorama des autres outils existants (swig, ...)
+   
+** Séance bonne pratique de programmation
+
+A l'initiative d'Eric, si suffisamment de personnes intéressées. 
+Cette séance serait intercalée entre la 2nde et la 3ème suivant les dispo d'Eric. 
+
+* Répartition et mode de travail
+
+Tous les animateurs seront présents à toutes les séances étant donné le nombre de participants. 
+Un animateur référent par séance  s'assure de la préparation du support d'atelier et de cours: 
++ Séance 1: Maude / Cyrille
++ Séance 2: Eric
++ Séance 3: Pierre
++(Séance bonne pratique de programmation): Eric
+
+Les supports sont préparés de manière collaborative, hébergé sur github: 
+https://github.com/mlejeune/cours-python
+
+Le format est libre, mais Sphinx semble être l'outil le plus adapté
+pour gérer à la fois les supports d'ateliers et les slideshow.
+Autres outils mentionnés: notebook, org-mode d'emacs. 
+
+
+** TO DO liste
+
++ Maude: fournir la liste d'email de la séance 3 à Pierre pour sondage sur les langages
++ Tous: arrêté une date de cours pour la première séance (cf emploi du temps des MdC)
++ Jean-Marc: fournir les simus de spectres d'étoiles pour préparer un fit. 
++ Pierre, Cyrille: Faire un mail aux participants pour qu'ils préparent leur installation: 
+++ python2.7
+++ ipython, pip
+++ numpy, scipy, matplotlib
+++ pyfits, astropy
+en incluant des conseils spécifiques pour mac. 
+
